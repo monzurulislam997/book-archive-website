@@ -9,7 +9,7 @@ const searchNumber =document.getElementById('search-number');
     searchResultDiv.innerHTML =''
   let inputField =document.getElementById('input-field').value;
  document.getElementById('input-field').value=' '
-    const url = ` http://openlibrary.org/search.json?q=${inputField}`
+    const url = ` https://openlibrary.org/search.json?q=${inputField}`
     if(inputField ===''){ 
       return  errorDiv.innerHTML =  `<h4> search field can not be empty  </h4>  `
     } 
